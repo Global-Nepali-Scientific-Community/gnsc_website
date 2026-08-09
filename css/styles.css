@@ -555,10 +555,16 @@ body {
   text-decoration: underline;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
+.contact-form-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: #ffffff;
+}
+
+.contact-form-container iframe {
+  width: 100%;
+  border: 0;
 }
 
 .form-group {

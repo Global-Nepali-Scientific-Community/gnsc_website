@@ -9,7 +9,7 @@ class Hero extends HTMLElement {
               Empowering innovation, scientific research, and academic collaboration across global Nepali communities
             </p>
             <div class="hero-actions">
-              <a href="contact/" class="btn btn-primary">Join Our Community</a>
+              <a href="#contact" class="btn btn-primary">Join Our Community</a>
               <a href="#what-we-do" class="btn btn-secondary">Explore Our Work</a>
             </div>
           </div>

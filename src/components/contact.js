@@ -13,21 +13,9 @@ class Contact extends HTMLElement {
               <p>Whether you'd like to present your research, attend our next monthly session, or collaborate with GNSC, we'd love to hear from you.</p>
 
             </div>
-            <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! We will contact you shortly.');">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" required placeholder="Your full name" />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" required placeholder="your.email@example.com" />
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" rows="4" required placeholder="How would you like to get involved?"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+            <div class="contact-form-container">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWSoclwgn7kdkkFI6eZga0zVV1-WFQe9J-T22Vza2eHhhEmg/viewform?embedded=true" width="100%" height="878" frameborder="0" marginheight="0" marginwidth="0" style="border:0; max-width: 100%;">Loading…</iframe>
+            </div>
           </div>
         </div>
       </section>

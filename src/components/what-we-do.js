@@ -19,7 +19,7 @@ class WhatWeDo extends HTMLElement {
                 Nepali-speaking academics from around the world share insights that bridge Nepali cultural experience with rigorous academic thought, producing insights that benefit all people with a focus on Nepali communities.
               </p>
               <div class="event-footer">
-                <a href="contact/" class="btn btn-primary">View & Join Next Session</a>
+                <a href="#contact" class="btn btn-primary">View & Join Next Session</a>
               </div>
             </div>
           </div>
