@@ -14,7 +14,10 @@ class Contact extends HTMLElement {
 
             </div>
             <div class="contact-form-container">
+              <!-- Previous Google Form:
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWSoclwgn7kdkkFI6eZga0zVV1-WFQe9J-T22Vza2eHhhEmg/viewform?embedded=true" width="100%" height="878" frameborder="0" marginheight="0" marginwidth="0" style="border:0; max-width: 100%;">Loading…</iframe>
+              -->
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWSoclwgn7kdkkFI6eZga0zVV1-WFQe9J-T22Vza2eHhhEmg/viewform?usp=sharing&ouid=107580116158200463282&embedded=true" width="100%" height="878" frameborder="0" marginheight="0" marginwidth="0" style="border:0; max-width: 100%;">Loading…</iframe>
             </div>
           </div>
         </div>
