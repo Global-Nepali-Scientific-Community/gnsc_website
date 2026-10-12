@@ -10,7 +10,7 @@ class Hero extends HTMLElement {
             </p>
             <div class="hero-actions">
               <a href="#contact" class="btn btn-primary">Join Our Community</a>
-              <a href="#what-we-do" class="btn btn-secondary">Explore Our Work</a>
+              <a href="/presentations" class="btn btn-secondary">Explore Our Work</a>
             </div>
           </div>
           <div class="hero-visual">
