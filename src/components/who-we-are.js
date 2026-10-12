@@ -9,7 +9,7 @@ class WhoWeAre extends HTMLElement {
           </div>
           <div class="who-we-are-content">
             <p class="lead-text">
-              The Global Network of Nepali Scientists & Scholars (GNSC) brings together researchers, educators, innovators, and academic leaders spanning multiple scientific disciplines across the globe.
+              The Global Nepali Scientific Community (GNSC) brings together researchers, educators, innovators, and academic leaders spanning multiple scientific disciplines across the globe.
             </p>
             <div class="stats-grid">
               <div class="stat-card">
