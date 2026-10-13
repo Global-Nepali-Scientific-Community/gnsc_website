@@ -1,0 +1,160 @@
+export const leadershipData = {
+  executiveCommittee: [
+    {
+      id: "exec-1",
+      name: "Beda N Dahal",
+      role: "President",
+      details: "Executive Leadership",
+      location: "USA",
+      image: "../assets/beda_n_dahal.jpg"
+    },
+    {
+      id: "exec-2",
+      name: "Dr. Rudra Kafle",
+      role: "Vice President",
+      details: "Executive Leadership",
+      location: "USA",
+      image: "../assets/rudra_kafle.jpg"
+    },
+    {
+      id: "exec-3",
+      name: "Pragyan Adhikari",
+      role: "Vice President",
+      details: "Executive Leadership",
+      location: "USA",
+      image: "../assets/pragyan_adhikari.jpg"
+    },
+    {
+      id: "exec-4",
+      name: "Prof. Lekhnath Kafle",
+      role: "Gen. Secretary",
+      details: "Secretariat",
+      location: "Taiwan",
+      image: "../assets/lekhnath_kafle.jpg"
+    },
+    {
+      id: "exec-5",
+      name: "Suvash Kafle",
+      role: "Secretary",
+      details: "Secretariat",
+      location: "USA",
+      image: "../assets/suvash_kafle.jpg"
+    },
+    {
+      id: "exec-6",
+      name: "Pratigya Thapalia",
+      role: "Joint Secretary",
+      details: "Secretariat",
+      location: "USA",
+      image: "../assets/pratigya_thapalia.png"
+    },
+    {
+      id: "exec-7",
+      name: "Dr. Achyut Mishra",
+      role: "Treasurer",
+      details: "Financial Oversight",
+      location: "USA",
+      image: "../assets/achyut_mishra.jpg"
+    },
+    {
+      id: "exec-8",
+      name: "Bishal Adhikari",
+      role: "Program Coordinator",
+      details: "Operations & Programs",
+      location: "USA",
+      image: "../assets/bishal_adhikari.jpg"
+    },
+    {
+      id: "exec-9",
+      name: "Prof. Gopal Bhatta",
+      role: "Member",
+      details: "Executive Council",
+      location: "Poland",
+      image: "../assets/gopal_bhatta.jpg"
+    },
+    {
+      id: "exec-10",
+      name: "Dr. Yakindra Timilsena",
+      role: "Member",
+      details: "Executive Council",
+      location: "Australia",
+      image: "../assets/yakindra_timilsena.jpg"
+    },
+    {
+      id: "exec-11",
+      name: "Dr. Choodamani Khanal",
+      role: "Member",
+      details: "Executive Council",
+      location: "USA",
+      image: "../assets/choodamani_khanal.jpg"
+    },
+    {
+      id: "exec-12",
+      name: "Ganesh Dawadi",
+      role: "Member",
+      details: "Executive Council",
+      location: "Nepal",
+      image: "../assets/ganesh_dawadi.jpg"
+    },
+    {
+      id: "exec-13",
+      name: "Sahaj Dahal",
+      role: "Technical Manager",
+      details: "Digital Infrastructure",
+      location: "USA",
+      image: "../assets/sahaj_dahal.jpeg"
+    },
+    {
+      id: "exec-14",
+      name: "Pallav Regmi",
+      role: "Technical Manager",
+      details: "Digital Infrastructure",
+      location: "USA",
+      image: "../assets/pallav_regmi.jpeg"
+    }
+  ],
+  advisoryCommittee: [
+    {
+      id: "adv-1",
+      name: "Gopi Upreti",
+      role: "Professor",
+      details: "Institute of Agriculture and Animal Science (TU) • Advisor at NAPA",
+      location: "USA / Nepal",
+      image: "../assets/gopi_upreti.jpg"
+    },
+    {
+      id: "adv-2",
+      name: "Professor Deva Bhakta Shakya",
+      role: "Professor",
+      details: "Tribhuvan University (TU) • International Food Policy Research Institute (IFPRI)",
+      location: "Nepal",
+      image: "../assets/deva_bhakta_shakya.jpg"
+    },
+    {
+      id: "adv-3",
+      name: "Dr. Chandra Giri",
+      role: "Senior Advisor & Adjunct Faculty",
+      details: "U.S. EPA • Duke University",
+      location: "USA",
+      image: "../assets/chandra_giri.jpg"
+    },
+    {
+      id: "adv-4",
+      name: "Dr. Gyan Nyaupane",
+      role: "Professor",
+      details: "Arizona State University",
+      location: "USA",
+      image: "../assets/gyan_neupane.jpg"
+    },
+    {
+      id: "adv-5",
+      name: "Achyut Adhikari",
+      role: "Professor",
+      details: "Louisiana State University",
+      location: "USA",
+      image: "../assets/achyut_adhikari.jpg"
+    }
+  ]
+};
+
+export default leadershipData;
