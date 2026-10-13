@@ -28,10 +28,15 @@ class PresentationFilter extends HTMLElement {
             <label for="filter-topic">Presentation Topic</label>
             <select id="filter-topic" class="filter-select">
               <option value="all">All Topics</option>
+              <option value="Food Science & Technology">Food Science & Technology</option>
               <option value="Genomics & Biotechnology">Genomics & Biotechnology</option>
               <option value="Climate & Environmental Science">Climate & Environmental Science</option>
               <option value="Artificial Intelligence & NLP">Artificial Intelligence & NLP</option>
               <option value="Sustainable Energy">Sustainable Energy</option>
+              <option value="Medical & Health Sciences">Medical & Health Sciences</option>
+              <option value="Heritage & Social Sciences">Heritage & Social Sciences</option>
+              <option value="Academic Research">Academic Research</option>
+              <option value="Professional Development">Professional Development</option>
             </select>
           </div>
 
@@ -40,9 +45,11 @@ class PresentationFilter extends HTMLElement {
             <label for="filter-year">Year / Date Range</label>
             <select id="filter-year" class="filter-select">
               <option value="all">All Years</option>
+              <option value="2027">2027</option>
+              <option value="2026">2026</option>
+              <option value="2025">2025</option>
               <option value="2024">2024</option>
               <option value="2023">2023</option>
-              <option value="2022">2022</option>
             </select>
           </div>
 
