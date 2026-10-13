@@ -10,7 +10,7 @@
 - [ ] Change professor speaking picture in What We Do section
 - [ ] Collect speaker details & abstracts for actual academic presentations
 - [ ] update presentation filters to be shorter in text but broader in amount of choices
-- [ ] gather board member photos, bios, and titles
+- [x] gather board member photos, bios, and titles
 - [ ] update contact details in footer once we have emails set
 
 Future Versions
