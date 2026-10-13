@@ -3,7 +3,7 @@
 .presentation-hero-section {
   padding: 6rem 0 3.5rem 0;
   background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.08), transparent 40%),
-              radial-gradient(circle at bottom left, rgba(37, 99, 235, 0.08), transparent 40%);
+    radial-gradient(circle at bottom left, rgba(37, 99, 235, 0.08), transparent 40%);
   text-align: center;
 }
 
@@ -252,6 +252,7 @@
   .filter-controls {
     grid-template-columns: 1fr;
   }
+
   .presentations-grid {
     grid-template-columns: 1fr;
   }
