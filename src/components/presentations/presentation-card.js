@@ -1,6 +1,6 @@
 class PresentationCard extends HTMLElement {
   static get observedAttributes() {
-    return ['image', 'tag', 'continent', 'name', 'role', 'title', 'description', 'date', 'year'];
+    return ['id', 'image', 'tag', 'continent', 'name', 'role', 'title', 'description', 'date', 'year'];
   }
 
   attributeChangedCallback() {
@@ -12,6 +12,7 @@ class PresentationCard extends HTMLElement {
   }
 
   render() {
+    const id = this.getAttribute('id') || 'p1';
     const image = this.getAttribute('image') || '../assets/gnsc_main.png';
     const tag = this.getAttribute('tag') || 'Research';
     const continent = this.getAttribute('continent') || 'Global';
@@ -39,7 +40,7 @@ class PresentationCard extends HTMLElement {
           <p class="presentation-description">${description}</p>
           <div class="presentation-footer">
             <span class="presentation-date">${date}</span>
-            <button class="btn btn-secondary btn-sm" onclick="alert('Session recording available for registered GNSC members.');">Watch Recording</button>
+            <a href="detail.html?id=${encodeURIComponent(id)}" class="btn btn-secondary btn-sm">View Details &rarr;</a>
           </div>
         </div>
       </article>
