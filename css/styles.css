@@ -71,6 +71,7 @@ body {
   color: var(--primary-color);
   text-decoration: none;
   background: linear-gradient(135deg, #0f172a 0%, #2563eb 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -326,6 +327,7 @@ body {
   border-radius: var(--radius-lg);
   padding: 8px;
   background: linear-gradient(135deg, #0f172a 0%, #2563eb 100%);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
